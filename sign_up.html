@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Our Website_SignUp</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../bootstrap-3.3.6-dist/css/bootstrap.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="../bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<link href="index_head.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#999">
+<!-- Navigation Bar-->	
+	<nav class="navbar navbar-inverse">
+    	<div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand" id="head">University Portal</a>
+            </div>
+            
+            
+            <ul class="nav navbar-nav navbar-right" style="font-size:20px">
+                
+                    <li><a href="sign_up.html">Sign Up</a></li>
+                    <li><a href="#">Log in</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                    <li><a href="#">About Us</a></li>
+                
+    		</ul>
+    		
+         </div>   
+    
+    
+    </nav>
+    
+
+<!--End-->
+	
+       
+	<div align="center" class="container" id="account_box">
+    	<div align="center">
+        	<h1 style="font-size:56px; font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif">Create account</h1><br><br>
+        
+        
+        </div>
+        	
+    	<form role="form" method="post" action="hello.php">
+        
+        	<div class="form-group col-md-6">
+           	
+            <input type="text" name="firstname" placeholder="First Name" class="form-control">
+            </div>
+            <div class="form-group col-md-6">
+            <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+            </div>
+            <div class="form-group col-md-6">
+            	
+                	<select name="branch" class="col-md-6 form-control">
+                    	<option value="">Select Branch</option>
+                        <option value="Cse">Computer Science and engineering</option>
+                        <option value="Ece">Electronics and communication</option>
+                        <option value="Ce">Civil engineering</option>
+                        <option value="EI">Electronics and intrumentation</option>
+                        <option value="Me">Mechanical Engineering</option>
+                    </select> 
+               
+            </div>
+           	<div class="form-group col-md-6">
+            <input type="text" name="Scholar_No" placeholder="Scholar_No" class="form-control">    
+            </div>
+            	
+       		<div class="form-group col-md-12">
+            <input type="email" name="Email" placeholder="Email" class="form-control">    
+            </div>
+			 
+            <div class="form-group col-md-12">
+            <input type="password" name="password" placeholder="Enter Password" class="form-control">    
+            </div>           
+            
+            <div class="form-group col-md-12">
+            <input type="password" name="pwd" placeholder="Confirm Password" class="form-control">    
+            </div>
+            
+            <div class="form-group col-md-12">
+            <input type="text" name="Mobile_No" placeholder="Contact" class="form-control">    
+            </div>
+            <button type="submit" name="submit" class="btn btn-info">Submit</button>
+          
+        </form>
+    
+    
+    </div>
+
+
+
+    
+    
+
+</body>
+</html>

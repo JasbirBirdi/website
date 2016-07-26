@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+#head{
+	font-size:40px;
+}
+#form_box{
+	margin-top:200px;
+	width:700px;
+	height:300px;
+	inline-box-align:center;
+	background-color:#333;
+	
+}
+#inp{
+	width:450px;
+}
+#account_box{
+	width:800px;
+}
